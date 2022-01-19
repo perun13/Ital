@@ -172,6 +172,7 @@ h3 {
 
 .header-logo {
   z-index: 80;
+  background: cover;
 }
 
 .header_burger {
@@ -816,6 +817,7 @@ footer {
         -ms-flex-pack: center;
             justify-content: center;
     justify-items: center;
+    margin-top: 50px;
   }
   .footer_mobile {
     display: -webkit-box;
@@ -878,14 +880,24 @@ footer {
   }
   .box_3_title {
     font-size: 20px;
+    margin-top: 55px;
   }
   .box_3_list {
     margin-top: 0;
+  }
+  .footer_list {
+    padding-top: 45px;
   }
 }
 
 @media (max-width: 375px) {
   .box_1_title {
     font-size: 23px;
+  }
+  .box_3_title {
+    margin-top: 55px;
+  }
+  .footer_list {
+    padding-top: 45px;
   }
 }
