@@ -1,3 +1,13 @@
+new Swiper('.image-slider', {
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    initialSlide: 1,
+
+
+
+});
 const isMobile = {
     Android: function () {
         return navigator.userAgent.match(/Android/i);
@@ -41,4 +51,3 @@ if (headerBurger) {
         navBurger.classList.toggle('_active');
     });
 }
-box_1_list_item_1_text.location.href = "http://127.0.0.1:5500/awards.html";

@@ -41,4 +41,3 @@ if (headerBurger) {
         navBurger.classList.toggle('_active');
     });
 }
-box_1_list_item_1_text.location.href = "http://127.0.0.1:5500/awards.html";
