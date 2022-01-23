@@ -64,7 +64,6 @@ h1 {
 .image-slider__image {
   text-align: center;
   margin: 0 auto;
-  max-width: 50%;
 }
 
 .image-slider__image img {
