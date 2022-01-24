@@ -1,4 +1,89 @@
-@import url(dist/css/nullstyle.css);
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
 body._lock {
   overflow: hidden;
 }
@@ -100,7 +185,7 @@ header {
   padding-bottom: 150px;
   padding-right: 150px;
   padding-left: 150px;
-  background: url(../../img/dom_4.jpg) no-repeat center center/cover;
+  background: url(/../img/dom_4.jpg) no-repeat center center/cover;
 }
 
 .box_1_list_item_1_text {
@@ -113,6 +198,8 @@ header {
 .box_1_list_item_2 {
   max-width: 360px;
   max-height: 360px;
+  margin-left: 15px;
+  margin-right: 15px;
   padding-top: 150px;
   padding-bottom: 150px;
   padding-right: 150px;
@@ -123,7 +210,7 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
   justify-items: center;
-  background: url(../../img/dom_5.jpg) no-repeat center center/cover;
+  background: url(/../img/dom_5.jpg) no-repeat center center/cover;
 }
 
 .box_1_list_item_2_btn {
@@ -148,7 +235,7 @@ header {
   padding-bottom: 150px;
   padding-right: 150px;
   padding-left: 150px;
-  background: url(../../img/dom_6.jpg) no-repeat center center/cover;
+  background: url(/../img/dom_6.jpg) no-repeat center center/cover;
 }
 
 .box_1_list_item_3_text {
@@ -501,6 +588,9 @@ footer {
   .logo_footer {
     height: 55px;
   }
+  .box_1_list_item_2 {
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 425px) {
@@ -568,5 +658,14 @@ footer {
 @media (max-width: 375px) {
   .footer_list {
     padding-top: 45px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header-logo {
+    margin-left: -30px;
+  }
+  .header_burger {
+    right: 10px;
   }
 }
