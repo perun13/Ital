@@ -13,6 +13,18 @@ new Swiper('.image-slider', {
 
 
 });
+new Swiper('box_12_swiper', {
+    autoplay: {
+        deley: 8000,
+    },
+    speed: 1000,
+    pagination: {
+        el: '.swiper-pagination',
+
+        clickable: true,
+        dynamicBullets: true,
+    },
+})
 const isMobile = {
     Android: function () {
         return navigator.userAgent.match(/Android/i);
