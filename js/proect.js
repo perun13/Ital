@@ -13,6 +13,66 @@ new Swiper('.image-slider', {
 
 
 });
+new Swiper('box_17_swiper', {
+    autoplay: {
+        deley: 8000,
+    },
+    speed: 1000,
+    pagination: {
+        el: '.swiper-pagination',
+
+        clickable: true,
+        dynamicBullets: true,
+    },
+})
+new Swiper('box_16_swiper', {
+    autoplay: {
+        deley: 8000,
+    },
+    speed: 1000,
+    pagination: {
+        el: '.swiper-pagination',
+
+        clickable: true,
+        dynamicBullets: true,
+    },
+})
+new Swiper('box_15_swiper', {
+    autoplay: {
+        deley: 8000,
+    },
+    speed: 1000,
+    pagination: {
+        el: '.swiper-pagination',
+
+        clickable: true,
+        dynamicBullets: true,
+    },
+})
+new Swiper('box_14_swiper', {
+    autoplay: {
+        deley: 8000,
+    },
+    speed: 1000,
+    pagination: {
+        el: '.swiper-pagination',
+
+        clickable: true,
+        dynamicBullets: true,
+    },
+})
+new Swiper('box_13_swiper', {
+    autoplay: {
+        deley: 8000,
+    },
+    speed: 1000,
+    pagination: {
+        el: '.swiper-pagination',
+
+        clickable: true,
+        dynamicBullets: true,
+    },
+})
 new Swiper('box_12_swiper', {
     autoplay: {
         deley: 8000,
