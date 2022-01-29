@@ -185,7 +185,7 @@ header {
   padding-bottom: 150px;
   padding-right: 150px;
   padding-left: 150px;
-  background: url(/../img/dom_4.jpg) no-repeat center center/cover;
+  background: url(../../img/dom_4.jpg) no-repeat center center/cover;
 }
 
 .box_1_list_item_1_text {
@@ -210,7 +210,7 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
   justify-items: center;
-  background: url(/../img/dom_5.jpg) no-repeat center center/cover;
+  background: url(../../img/dom_5.jpg) no-repeat center center/cover;
 }
 
 .box_1_list_item_2_btn {
@@ -235,7 +235,7 @@ header {
   padding-bottom: 150px;
   padding-right: 150px;
   padding-left: 150px;
-  background: url(/../img/dom_6.jpg) no-repeat center center/cover;
+  background: url(../../img/dom_6.jpg) no-repeat center center/cover;
 }
 
 .box_1_list_item_3_text {

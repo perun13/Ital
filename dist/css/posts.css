@@ -139,27 +139,27 @@ h1 {
 
 .line_1 {
   position: absolute;
-  top: 55%;
+  top: 50%;
 }
 
 .line_2 {
   position: absolute;
-  top: 83%;
+  top: 79%;
 }
 
 .line_3 {
   position: absolute;
-  top: 108%;
+  top: 101%;
 }
 
 .line_4 {
   position: absolute;
-  top: 135%;
+  top: 126%;
 }
 
 .line_5 {
   position: absolute;
-  top: 172%;
+  top: 162%;
 }
 
 .line_1_mobile {
@@ -526,19 +526,19 @@ footer {
 
 @media (max-width: 1440px) {
   .line_1 {
-    top: 59%;
+    top: 55%;
   }
   .line_2 {
-    top: 92%;
+    top: 86%;
   }
   .line_3 {
-    top: 120%;
+    top: 113%;
   }
   .line_4 {
-    top: 149%;
+    top: 140%;
   }
   .line_5 {
-    top: 192%;
+    top: 179%;
   }
 }
 
@@ -551,24 +551,24 @@ footer {
     margin-left: 200px;
   }
   .line_1 {
-    max-width: 955px;
-    top: 56%;
+    max-width: 943px;
+    top: 52%;
   }
   .line_2 {
-    max-width: 955px;
-    top: 88%;
+    max-width: 943px;
+    top: 83%;
   }
   .line_3 {
-    max-width: 955px;
-    top: 116%;
+    max-width: 943px;
+    top: 109%;
   }
   .line_4 {
-    max-width: 955px;
-    top: 146%;
+    max-width: 943px;
+    top: 137%;
   }
   .line_5 {
-    max-width: 955px;
-    top: 184%;
+    max-width: 943px;
+    top: 173%;
   }
   .title {
     font-size: 24px;
@@ -726,23 +726,23 @@ footer {
   }
   .line_1 {
     max-width: 750px;
-    top: 56%;
+    top: 53%;
   }
   .line_2 {
     max-width: 750px;
-    top: 87%;
+    top: 82%;
   }
   .line_3 {
     max-width: 750px;
-    top: 111%;
+    top: 104%;
   }
   .line_4 {
     max-width: 750px;
-    top: 139%;
+    top: 131%;
   }
   .line_5 {
     max-width: 750px;
-    top: 180%;
+    top: 169%;
   }
   .btn {
     padding: 20px 100px 20px 100px;
@@ -867,6 +867,11 @@ footer {
   .footer_list {
     padding-top: 45px;
   }
+  .box_1 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .title {
     font-size: 25px;
     margin-left: 5px;
@@ -877,6 +882,12 @@ footer {
   }
   .header_burger {
     margin-top: 31px;
+  }
+  p {
+    max-width: 300px;
+  }
+  h1 {
+    margin-left: 46px;
   }
   .box_item_1 {
     display: -ms-grid;
@@ -975,62 +986,62 @@ footer {
   .line_6_mobile {
     display: block;
     position: absolute;
-    top: 147%;
-    left: 30px;
+    top: 140%;
+    left: 62px;
   }
   .line_7 {
     display: block;
     position: absolute;
-    left: 30px;
-    top: 168%;
+    top: 161%;
+    left: 62px;
   }
   .line_8 {
     display: block;
     position: absolute;
-    top: 189%;
-    left: 30px;
+    top: 183%;
+    left: 62px;
   }
   .line_9 {
     display: block;
     position: absolute;
-    top: 214%;
-    left: 30px;
+    top: 208%;
+    left: 62px;
   }
   .line_10 {
     display: block;
     position: absolute;
-    top: 248%;
-    left: 30px;
+    top: 241%;
+    left: 62px;
   }
   .line_5_mobile {
     display: block;
     position: absolute;
-    top: 129%;
-    left: 30px;
+    top: 121%;
+    left: 62px;
   }
   .line_4_mobile {
     display: block;
     position: absolute;
-    top: 111%;
-    left: 30px;
+    top: 104%;
+    left: 62px;
   }
   .line_3_mobile {
     display: block;
     position: absolute;
-    top: 86%;
-    left: 30px;
+    top: 80%;
+    left: 62px;
   }
   .line_2_mobile {
     display: block;
     position: absolute;
-    top: 62%;
-    left: 30px;
+    top: 58%;
+    left: 62px;
   }
   .line_1_mobile {
     display: block;
     position: absolute;
-    top: 42%;
-    left: 30px;
+    top: 39%;
+    left: 62px;
   }
   .vertical {
     display: none;
@@ -1051,5 +1062,138 @@ footer {
   }
   .btn_1 {
     padding: 10px 100px 10px 100px;
+  }
+}
+
+@media (max-width: 375px) {
+  .line_6_mobile {
+    display: block;
+    position: absolute;
+    top: 140%;
+    left: 39px;
+  }
+  .line_7 {
+    display: block;
+    position: absolute;
+    top: 161%;
+    left: 39px;
+  }
+  .line_8 {
+    display: block;
+    position: absolute;
+    top: 183%;
+    left: 39px;
+  }
+  .line_9 {
+    display: block;
+    position: absolute;
+    top: 208%;
+    left: 39px;
+  }
+  .line_10 {
+    display: block;
+    position: absolute;
+    top: 241%;
+    left: 39px;
+  }
+  .line_5_mobile {
+    display: block;
+    position: absolute;
+    top: 121%;
+    left: 39px;
+  }
+  .line_4_mobile {
+    display: block;
+    position: absolute;
+    top: 104%;
+    left: 39px;
+  }
+  .line_3_mobile {
+    display: block;
+    position: absolute;
+    top: 80%;
+    left: 39px;
+  }
+  .line_2_mobile {
+    display: block;
+    position: absolute;
+    top: 58%;
+    left: 39px;
+  }
+  .line_1_mobile {
+    display: block;
+    position: absolute;
+    top: 39%;
+    left: 39px;
+  }
+  h1 {
+    margin-left: 23px;
+  }
+}
+
+@media (max-width: 320px) {
+  .line_6_mobile {
+    display: block;
+    position: absolute;
+    top: 140%;
+    left: 10px;
+  }
+  .line_7 {
+    display: block;
+    position: absolute;
+    top: 161%;
+    left: 10px;
+  }
+  .line_8 {
+    display: block;
+    position: absolute;
+    top: 183%;
+    left: 10px;
+  }
+  .line_9 {
+    display: block;
+    position: absolute;
+    top: 208%;
+    left: 10px;
+  }
+  .line_10 {
+    display: block;
+    position: absolute;
+    top: 241%;
+    left: 10px;
+  }
+  .line_5_mobile {
+    display: block;
+    position: absolute;
+    top: 121%;
+    left: 10px;
+  }
+  .line_4_mobile {
+    display: block;
+    position: absolute;
+    top: 104%;
+    left: 10px;
+  }
+  .line_3_mobile {
+    display: block;
+    position: absolute;
+    top: 80%;
+    left: 10px;
+  }
+  .line_2_mobile {
+    display: block;
+    position: absolute;
+    top: 58%;
+    left: 10px;
+  }
+  .line_1_mobile {
+    display: block;
+    position: absolute;
+    top: 39%;
+    left: 10px;
+  }
+  h1 {
+    margin-left: 0;
+    font-size: 28px;
   }
 }
