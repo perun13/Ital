@@ -1526,7 +1526,7 @@ footer {
     position: fixed;
     z-index: 5;
     cursor: pointer;
-    left: 21%;
+    right: 76%;
     margin-top: 50px;
   }
   .header_burger span,
