@@ -643,26 +643,6 @@ footer {
     z-index: 1;
     margin-left: 45px;
   }
-  .line_1 {
-    max-width: 750px;
-    top: 53%;
-  }
-  .line_2 {
-    max-width: 750px;
-    top: 82%;
-  }
-  .line_3 {
-    max-width: 750px;
-    top: 104%;
-  }
-  .line_4 {
-    max-width: 750px;
-    top: 131%;
-  }
-  .line_5 {
-    max-width: 750px;
-    top: 169%;
-  }
   .btn {
     padding: 20px 100px 20px 100px;
   }
@@ -821,7 +801,7 @@ footer {
   .box_item_1_2 {
     max-width: 350px;
     margin: 0;
-    margin-top: 10px;
+    margin-top: 20px;
   }
   .box_item_2 {
     display: -ms-grid;
@@ -831,13 +811,13 @@ footer {
   }
   .box_item_2_1 {
     max-width: 350px;
-    margin-top: 10px;
+    margin-top: 20px;
     border-bottom: solid 1px #AEA38B;
     padding-bottom: 20px;
   }
   .box_item_2_2 {
     max-width: 350px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 0%;
   }
   .box_item_3 {
@@ -848,13 +828,13 @@ footer {
   }
   .box_item_3_1 {
     max-width: 350px;
-    margin-top: 10px;
+    margin-top: 20px;
     border-bottom: solid 1px #AEA38B;
     padding-bottom: 20px;
   }
   .box_item_3_2 {
     max-width: 350px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 0;
   }
   .box_item_4 {
@@ -865,13 +845,13 @@ footer {
   }
   .box_item_4_1 {
     max-width: 350px;
-    margin-top: 10px;
+    margin-top: 20px;
     border-bottom: solid 1px #AEA38B;
     padding-bottom: 20px;
   }
   .box_item_4_2 {
     max-width: 350px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 0;
   }
   .box_item_5 {
@@ -882,14 +862,14 @@ footer {
   }
   .box_item_5_1 {
     max-width: 350px;
-    margin-top: 10px;
+    margin-top: 20px;
     border-bottom: solid 1px #AEA38B;
     padding-bottom: 20px;
   }
   .box_item_5_2 {
     margin-bottom: 60px;
     max-width: 350px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 0;
   }
   .vertical {
@@ -901,10 +881,10 @@ footer {
   .text {
     font-size: 14px;
     margin-top: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
   }
   .text_1 {
-    margin-bottom: 24px;
+    margin-bottom: 60px;
   }
   .btn {
     padding: 10px 100px 10px 100px;

@@ -730,7 +730,7 @@ footer {
     margin-top: -80px;
   }
   .swiper-pagination-bullet {
-    padding: 10px;
+    padding: 0px 22px 0px 5px;
   }
   .nav {
     display: none;
@@ -906,7 +906,7 @@ footer {
     margin-left: 19px;
   }
   .swiper-pagination-bullet {
-    padding: 10px;
+    padding: 0px 22px 0px 5px;
   }
   .swiper-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
     left: 35%;
@@ -951,6 +951,9 @@ footer {
   .footer_list {
     padding-top: 45px;
   }
+  .swiper-pagination-bullet {
+    padding: 0px 22px 0px 5px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -960,5 +963,8 @@ footer {
   .swiper-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
     left: 20%;
     padding-top: 80px;
+  }
+  .swiper-pagination-bullet {
+    padding: 0px 22px 0px 5px;
   }
 }

@@ -606,7 +606,8 @@ footer {
     display: none;
   }
   .box_1_btn {
-    font-size: 16px;
+    font-size: 14px;
+    padding: 5px 30px 5px 30px;
   }
   .h1 {
     font-size: 36px;
@@ -639,6 +640,8 @@ footer {
   }
   .brown_text {
     font-size: 24px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
 
