@@ -4,6 +4,7 @@ new Swiper('.image-slider', {
 
         clickable: true,
         dynamicBullets: true,
+
     },
 
     loop: true,
